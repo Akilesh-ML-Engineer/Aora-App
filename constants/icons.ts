@@ -14,24 +14,24 @@ import play from "../assets/icons/play.png";
 
 // Define the type for the icon object
 type Icons = {
-  [key: string]: any;
+	[key: string]: any;
 };
 
 // Export the icons
 const icons: Icons = {
-  play,
-  bookmark, 
-  home,
-  plus,
-  profile,
-  leftArrow,
-  menu,
-  search,
-  upload,
-  rightArrow,
-  logout,
-  eyeHide,
-  eye,
+	play,
+	bookmark,
+	home,
+	plus,
+	profile,
+	leftArrow,
+	menu,
+	search,
+	upload,
+	rightArrow,
+	logout,
+	eyeHide,
+	eye,
 };
 
 export default icons;
