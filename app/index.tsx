@@ -19,7 +19,7 @@ const Index = () => {
 			Go to Profile
 		</Link>
     </View>
-  )
+  );
 };
 
 export default Index;

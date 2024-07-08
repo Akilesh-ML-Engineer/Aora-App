@@ -12,9 +12,15 @@ import eyeHide from "../assets/icons/eye-hide.png";
 import eye from "../assets/icons/eye.png";
 import play from "../assets/icons/play.png";
 
-export default {
+// Define the type for the icon object
+type Icons = {
+  [key: string]: any;
+};
+
+// Export the icons
+const icons: Icons = {
   play,
-  bookmark,
+  bookmark, 
   home,
   plus,
   profile,
@@ -27,3 +33,5 @@ export default {
   eyeHide,
   eye,
 };
+
+export default icons;
