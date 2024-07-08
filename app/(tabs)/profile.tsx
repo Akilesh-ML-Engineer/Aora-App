@@ -9,6 +9,4 @@ const Profile = () => {
   )
 }
 
-export default Profile
-
-const styles = StyleSheet.create({})
+export default Profile;

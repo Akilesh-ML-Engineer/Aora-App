@@ -8,7 +8,7 @@ const Index = () => {
       className="flex-1 items-center justify-center"
       >
       <Text
-        className="text-3xl"
+        className="text-3xl font-pbla"
       >
         Hello World!
       </Text>
